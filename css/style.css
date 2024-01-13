@@ -1,0 +1,22 @@
+
+
+
+.title{
+	color: red;
+}
+
+img{
+	height: 300px ; 
+	min-width: 100%;
+	width: 0;
+	object-fit:cover ;
+	transition: 1s;
+}
+.gallery{
+	display: grid;
+	grid-auto-flow: column;
+	width: 700px;
+}
+img:hover{
+	width: 300px;
+}
